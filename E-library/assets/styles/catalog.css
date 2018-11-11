@@ -1,0 +1,13 @@
+html {
+	box-sizing: border-box;
+	--dark-blue: #0F1E32;
+	--blue: #013859;
+	--white: #FFFFF8;
+	--dark-white: #E9F1DF;
+	--yellow: #FFCB05;
+	--black: #000000;
+}
+
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
