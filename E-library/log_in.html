@@ -13,32 +13,47 @@
 </head>
 
 <body>
-    <header>    
+    <header>
         <div id="buttons_left">
-            <a id="header_link_logo" href="index.html"><img id="header_logo" class="logo" alt="Logo" src="/assets/images/book.png"></a>
-            <div id="header_links">
-                <button class="header_button" type="button"> Home </button>
-                <button class="header_button" type="button"> News and Events </button>
-                <button class="header_button" type="button"> Catalog </button>
-                <button class="header_button" type="button"> Info and Location </button>
-                <button class="header_button" type="button"> Reserved books</button>
+                <a id="header_link_logo" href="index.html"><img id="header_logo" class="logo" alt="Logo" src="/assets/images/book.png"></a>
+                <div id="header_links">
+                    <a class="header_link" href="index.html"><button class="header_button" type="button"> Home </button></a>
+                    <a class="header_link" href="news_and_events.html"><button class="header_button" type="button"> News and Events </button></a>
+                    <a class="header_link" href="catalog.html"><button class="header_button" type="button"> Catalog </button></a>
+                    <a class="header_link" href="info.html"><button class="header_button" type="button"> Info and Location </button></a>
+                    <a class="header_link" href="rented_books.html"><button class="header_button" type="button"> Reserved books</button></a>
+                </div>
             </div>
-        </div> 
-        <div id="buttons_right">
-            <button class="header_button" id="btn_menu" type="button"> Menu </button>
-            <button class="header_button" id="btn_register" type="button">Register</button>
-            <button class="header_button" id="btn_log_in" type="button">Log In</button>
-         </div>
+            <div id="buttons_right">
+                <button class="header_button" id="btn_menu" type="button"> Menu </button>
+                <a class="header_link" href="register.html"><button class="header_button" id="btn_register" type="button">Register</button></a>
+                <a class="header_link" href="log_in.html"><button class="header_button" id="btn_log_in" type="button">Log In</button></a>
+            </div>
     </header>
     <main>
-         
+        <div id="left_line"></div>
+        <div id="horizontal_upper_line"></div>
+        <div id="center">
+            <h1 id="title">Log in</h1>
+            <form id="form">
+                <label class="form_input_text">Username or card number:</label><input class="form_input" type="text"
+                    name="Username">
+                <label class="form_input_text">Password:</label><input class="form_input" type="text" name="Password">
+            </form>
+            <button id="center_button">Continue</button>
+            <label class="form_text">Lost your password?</label>
+            <label class="form_text">Don't have an account?</label>
+        </div>
+        <div id="horizontal_lower_line"></div>
+        <div id="right_line"></div>
     </main>
     <footer>
         <a id="footer_link_logo" href="index.html"><img id="footer_logo" class="logo" alt="Logo" src="/assets/images/book.png"></a>
         <label id="footer_text"> All rights reserved. Lucia Bolanča @FESB 2018 HCI</label>
         <div id="footer_links">
             <a class="footer_link" id="link_first" href="www.facebook.com"><img class="footer_img" alt="Facebook" src="/assets/images/facebook.png"></a>
-            <a class="footer_link" id="link_second" href="www.instagram.com"><img class="footer_img" alt="Instagram" src="/assets//images/instagram.png"></a>
+            <a class="footer_link" id="link_second" href="www.instagram.com"><img class="footer_img" alt="Instagram"
+                    src="/assets//images/instagram.png"></a>
             <a class="footer_link" id="link_third" href="www.twitter.com"><img class="footer_img" alt="Twitter" src="/assets/images/twitter.png"></a>
         </div>
     </footer>
